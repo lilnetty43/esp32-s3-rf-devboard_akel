@@ -1305,6 +1305,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "VBUS ESD/TVS protection part\n"
+		(exclude_from_sim no)
+		(at 16.51 130.81 0)
+		(size 77.47 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "00ef4b2b-eadf-4006-bde9-77c2e8749a67")
+	)
 	(text_box "USB-C Input\n"
 		(exclude_from_sim no)
 		(at 16.51 15.24 0)
