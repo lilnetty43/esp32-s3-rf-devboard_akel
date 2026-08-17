@@ -3,4 +3,5 @@
 	(lib (name "USB4105-GF-A") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/USB4105-GF-A.kicad_sym") (options "") (descr ""))
 	(lib (name "ESD122DMYR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ESD122DMYR.kicad_sym") (options "") (descr ""))
 	(lib (name "LESD5D5.0CT1G") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/LESD5D5.0CT1G.kicad_sym") (options "") (descr ""))
+	(lib (name "LD1117DT33CTR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/LD1117DT33CTR.kicad_sym") (options "") (descr ""))
 )
