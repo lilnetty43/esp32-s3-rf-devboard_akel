@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_STM"
+		(property "Footprint" "ESP32S3-RF-DevBoard:DPAK_STM"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
