@@ -150,7 +150,7 @@
 		)
 		(symbol "LD1117DT33CTR_1_1"
 			(pin power_in line
-				(at 0 0 0)
+				(at 22.86 -15.24 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -168,7 +168,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -2.54 0)
+				(at 45.72 -1.27 180)
 				(length 7.62)
 				(name "VOUT"
 					(effects
@@ -186,7 +186,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -2.54 180)
+				(at 0 -1.27 0)
 				(length 7.62)
 				(name "VIN"
 					(effects

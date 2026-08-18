@@ -1200,7 +1200,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CR1"
+			(property "Reference" "CR"
 				(at 22.86 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2474,12 +2474,6 @@
 		(uuid "4428cfa8-ea0b-48ed-9fcc-e690e6cace7b")
 	)
 	(junction
-		(at 31.75 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47649b3a-cc3d-4274-8e7c-f90a2d938973")
-	)
-	(junction
 		(at 31.75 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2502,6 +2496,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d643b1c-7780-4269-adb8-29384ba931aa")
+	)
+	(junction
+		(at 25.4 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62ac917f-d905-4912-a91f-423b891ed67a")
 	)
 	(junction
 		(at 50.8 69.85)
@@ -2588,16 +2588,6 @@
 			(type default)
 		)
 		(uuid "0bb05889-f0a5-492c-a36a-628de4099f47")
-	)
-	(wire
-		(pts
-			(xy 31.75 187.96) (xy 57.15 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18508965-b101-4c1d-aa1b-40fca21aa3e7")
 	)
 	(wire
 		(pts
@@ -2781,7 +2771,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 187.96) (xy 31.75 187.96)
+			(xy 25.4 187.96) (xy 31.75 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768bb153-f3bd-45b0-8862-06b156b09c8f")
+	)
+	(wire
+		(pts
+			(xy 19.05 187.96) (xy 25.4 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2908,6 +2908,16 @@
 			(type default)
 		)
 		(uuid "c9fb5ea5-4444-4600-af99-7b245ee4a129")
+	)
+	(wire
+		(pts
+			(xy 25.4 187.96) (xy 25.4 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05f13e9-7c27-4423-b370-f5e4e470408c")
 	)
 	(wire
 		(pts
@@ -3801,10 +3811,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d5378117-0abc-436e-b6e4-bbf30bd021a8")
+			(uuid "d5378117-0abc-436e-b6e4-bbf30bd021a9")
 		)
 		(pin "1"
-			(uuid "5e714834-e068-4374-9e85-d2b0b79f494f")
+			(uuid "5e714834-e068-4374-9e85-d2b0b79f4950")
 		)
 		(instances
 			(project "ESP32S3_RF_DevBoard"
@@ -3974,6 +3984,84 @@
 			(project "ESP32S3_RF_DevBoard"
 				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e67a3da-82d1-4b02-a17d-b7496f604709")
+		(property "Reference" "#PWR010"
+			(at 25.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc9bcaab-a84d-4f82-b74b-3e7bcc9117a3")
+		)
+		(instances
+			(project "ESP32S3_RF_DevBoard"
+				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5004,7 +5092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_STM"
+		(property "Footprint" "ESP32S3-RF-DevBoard:DPAK_STM"
 			(at 34.29 173.99 0)
 			(hide yes)
 			(show_name no)
