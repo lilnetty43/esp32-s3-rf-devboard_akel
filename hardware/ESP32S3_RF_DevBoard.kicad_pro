@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -648,7 +648,7 @@
         "uuid": "784333dd-3fa1-4922-bbbf-658c1720cebd"
       }
     ],
-    "used_designators": "LED1-2,J1-4,SW1-3,R1-9,C1-7,#PWR1-17,D1-3,#FLG1-4,CR1-2,TP1-8,U1-4",
+    "used_designators": "LED1-2,J1-4,SW1-3,R1-9,C1-8,#PWR1-20,D1-3,#FLG1-4,CR1-2,TP1-8,U1-5",
     "variants": []
   },
   "sheets": [
