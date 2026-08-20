@@ -5708,6 +5708,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 140.97) (xy 119.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446eec56-dfe8-4c4b-bce0-5f6017babe87")
+	)
+	(wire
+		(pts
 			(xy 156.21 29.21) (xy 172.72 29.21)
 		)
 		(stroke
@@ -5998,16 +6008,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 140.97) (xy 119.38 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1fe8b0-57fe-4222-a929-47c8aaf864b1")
-	)
-	(wire
-		(pts
 			(xy 50.8 69.85) (xy 53.34 69.85)
 		)
 		(stroke
@@ -6078,7 +6078,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 143.51) (xy 116.84 146.05)
+			(xy 116.84 143.51) (xy 116.84 148.59)
 		)
 		(stroke
 			(width 0)
@@ -9213,6 +9213,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 30.48 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40117666-c91e-4485-8ecd-0c7a29d45828")
+		(property "Reference" "C2"
+			(at 33.02 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 33.02 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 31.4452 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/3261677-FS21B475K160EIG/C2929196"
+			(at 30.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PSA (Prosperity Dielectrics)"
+			(at 30.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FS21B475K160EIG"
+			(at 30.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2929196"
+			(at 30.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "216ba694-515b-432e-94eb-f5627b2f547a")
+		)
+		(pin "2"
+			(uuid "42e6ae3c-47d7-4387-948b-693cb848bb52")
+		)
+		(instances
+			(project "ESP32S3_RF_DevBoard"
+				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 222.25 130.81 0)
 		(unit 1)
@@ -9286,6 +9400,121 @@
 			(project "ESP32S3_RF_DevBoard"
 				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4333acee-c348-4752-a02a-a82e090a9f12")
+		(property "Reference" "R10"
+			(at 109.22 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.902 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+			(at 106.68 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturers" "UNI-ROYAL"
+			(at 106.68 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 106.68 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC/JLCPCB" "C25804"
+			(at 106.68 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "768ebee0-9bbe-4565-b97a-9e96b2e8e8eb")
+		)
+		(pin "2"
+			(uuid "a385edb4-31e9-42a6-9125-164da3468ac5")
+		)
+		(instances
+			(project "ESP32S3_RF_DevBoard"
+				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9442,120 +9671,6 @@
 			(project "ESP32S3_RF_DevBoard"
 				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 30.48 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4dfa4eed-9874-4631-8d67-c205e4ed0df8")
-		(property "Reference" "C2"
-			(at 33.274 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 33.274 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 31.4452 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 30.48 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 30.48 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "T491B106M016AT"
-			(at 30.48 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC/JCLPCB" "C118754"
-			(at 30.48 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d5378117-0abc-436e-b6e4-bbf30bd021a9")
-		)
-		(pin "1"
-			(uuid "5e714834-e068-4374-9e85-d2b0b79f4950")
-		)
-		(instances
-			(project "ESP32S3_RF_DevBoard"
-				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11137,6 +11252,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e50cd72-0008-4f14-bab5-26ac797800fa")
+		(property "Reference" "#PWR021"
+			(at 106.68 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214a1746-224f-40db-8eed-2633c6a121bc")
+		)
+		(instances
+			(project "ESP32S3_RF_DevBoard"
+				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SKRPANE010:SKRPANE010")
 		(at 144.78 173.99 0)
 		(unit 1)
@@ -11258,7 +11451,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 146.05 0)
+		(at 116.84 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11269,7 +11462,7 @@
 		(fields_autoplaced yes)
 		(uuid "87762cc1-4cbd-495c-ad4d-a478ec4a10c8")
 		(property "Reference" "#PWR018"
-			(at 116.84 152.4 0)
+			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11280,7 +11473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 151.13 0)
+			(at 116.84 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11290,7 +11483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 146.05 0)
+			(at 116.84 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11301,7 +11494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 146.05 0)
+			(at 116.84 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11312,7 +11505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 146.05 0)
+			(at 116.84 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
