@@ -8774,7 +8774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 267.97 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9360,7 +9360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 227.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9797,7 +9797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 250.19 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12989,7 +12989,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://jlcpcb.com/partdetail/STMicroelectronics-LD1117DT33CTR/C36395"
 			(at 33.02 170.18 0)
 			(hide yes)
 			(show_name no)
