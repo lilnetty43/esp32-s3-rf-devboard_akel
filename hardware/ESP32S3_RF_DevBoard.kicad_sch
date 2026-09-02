@@ -5305,12 +5305,20 @@
 		(uuid "eb99d866-753c-4e4e-899c-e9d704f9b259")
 	)
 	(no_connect
+		(at 260.35 82.55)
+		(uuid "0800dce6-5a1b-4cb9-969d-2ff1f081a269")
+	)
+	(no_connect
 		(at 154.94 138.43)
 		(uuid "27af148b-d590-44b5-8ae3-e567dab65569")
 	)
 	(no_connect
 		(at 33.02 41.91)
 		(uuid "c872249c-fd68-42f9-9120-50e0a7f6f41e")
+	)
+	(no_connect
+		(at 260.35 85.09)
+		(uuid "d9608c1a-7e13-4344-b312-f027db0dbbd7")
 	)
 	(no_connect
 		(at 33.02 39.37)
@@ -6767,7 +6775,7 @@
 		(uuid "0ed8cdd6-4c94-48d3-b3f5-eea72c378aa0")
 	)
 	(label "GPIO1"
-		(at 260.35 44.45 180)
+		(at 260.35 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6817,7 +6825,7 @@
 		(uuid "1e0d66cf-42f7-47f1-85a8-54d1e06690a2")
 	)
 	(label "GPIO4"
-		(at 229.87 44.45 180)
+		(at 229.87 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7057,7 +7065,7 @@
 		(uuid "4ccd0f0e-16bf-41ca-8b9c-78c771915072")
 	)
 	(label "TX"
-		(at 260.35 39.37 180)
+		(at 260.35 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7137,7 +7145,7 @@
 		(uuid "60a153fe-624e-4c67-93f1-be66a259ed31")
 	)
 	(label "GPIO38"
-		(at 260.35 59.69 180)
+		(at 260.35 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7316,16 +7324,6 @@
 		)
 		(uuid "75537493-b65c-45c5-88c5-d4d6b15d4e6f")
 	)
-	(label "USB_ESP_D+"
-		(at 260.35 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a9b1c83-b660-4c40-a1fd-ac5d85d784f5")
-	)
 	(label "GPIO35"
 		(at 173.99 68.58 0)
 		(effects
@@ -7357,7 +7355,7 @@
 		(uuid "82846f0b-37a4-44b1-b340-23c1dcfc44a1")
 	)
 	(label "RX"
-		(at 260.35 41.91 180)
+		(at 260.35 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7407,7 +7405,7 @@
 		(uuid "90c78ca2-25c0-4cc7-b167-6cd8e4835e2e")
 	)
 	(label "CHIP_PU"
-		(at 229.87 41.91 180)
+		(at 229.87 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7517,7 +7515,7 @@
 		(uuid "b4435ec7-c278-47cd-acb0-2983acff404d")
 	)
 	(label "GPIO2"
-		(at 260.35 46.99 180)
+		(at 260.35 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7605,16 +7603,6 @@
 			(justify right bottom)
 		)
 		(uuid "c4564bfd-2313-43e5-939c-2834b0baab4a")
-	)
-	(label "USB_ESP_D-"
-		(at 260.35 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c56934d3-bd93-4a1d-a7c2-05eb231814ac")
 	)
 	(label "GPIO41"
 		(at 173.99 83.82 0)
@@ -7707,7 +7695,7 @@
 		(uuid "df9750be-421c-4e76-b422-06a3d51b063a")
 	)
 	(label "GPIO37"
-		(at 260.35 62.23 180)
+		(at 260.35 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
