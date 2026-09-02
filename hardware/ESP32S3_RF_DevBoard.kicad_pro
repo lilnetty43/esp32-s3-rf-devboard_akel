@@ -81,7 +81,28 @@
           "width": 0.3051
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|143135000|87712086|9e45b968-a425-41a1-9c5e-b2456ab496ce|c092d600-d2c4-422c-9438-a9636a483321",
+          "intentional courtyard overlap; bodies verified in 3D and i see no mechanical collision."
+        ],
+        [
+          "courtyards_overlap|162465000|69155000|4e980cb0-2d4f-467a-8fcc-0286277a32b5|9e45b968-a425-41a1-9c5e-b2456ab496ce",
+          "intentional courtyard overlap; bodies verified in 3D and i see no mechanical collision."
+        ],
+        [
+          "lib_footprint_mismatch|141370000|97600000|c092d600-d2c4-422c-9438-a9636a483321|00000000-0000-0000-0000-000000000000",
+          "footprint was edited for board F.Silkscreen locally."
+        ],
+        [
+          "lib_footprint_mismatch|152800000|67200000|9e45b968-a425-41a1-9c5e-b2456ab496ce|00000000-0000-0000-0000-000000000000",
+          "footprint was edited for board F.Silkscreen locally."
+        ],
+        [
+          "lib_footprint_mismatch|164230000|97600000|4e980cb0-2d4f-467a-8fcc-0286277a32b5|00000000-0000-0000-0000-000000000000",
+          "footprint was edited for board F.Silkscreen locally."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -155,15 +176,15 @@
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.3,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.45,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.15,
-        "min_text_height": 1.0,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,

@@ -5366,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 132.08) (xy 262.89 130.81)
+			(xy 265.43 137.16) (xy 265.43 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5783,16 +5783,6 @@
 			(type default)
 		)
 		(uuid "48b147d3-aab7-4299-8463-1a0af746421f")
-	)
-	(wire
-		(pts
-			(xy 274.32 138.43) (xy 274.32 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b22dcf2-36be-4f2d-b49b-d2e44771c26e")
 	)
 	(wire
 		(pts
@@ -6273,16 +6263,6 @@
 			(type default)
 		)
 		(uuid "ac5cc0da-2d78-4a7d-821a-5a1ade62d077")
-	)
-	(wire
-		(pts
-			(xy 262.89 143.51) (xy 262.89 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc19e3d-85ab-41c0-9933-e661f37311eb")
 	)
 	(wire
 		(pts
@@ -6814,16 +6794,6 @@
 		)
 		(uuid "15a9b036-0ad1-4b98-b44e-a26f75e87d6b")
 	)
-	(label "TX"
-		(at 262.89 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e0d66cf-42f7-47f1-85a8-54d1e06690a2")
-	)
 	(label "GPIO4"
 		(at 229.87 41.91 180)
 		(effects
@@ -6843,16 +6813,6 @@
 			(justify right bottom)
 		)
 		(uuid "20ede737-e085-4b34-ac64-5a837d17ebe0")
-	)
-	(label "RX"
-		(at 274.32 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21e43db4-7831-4dbc-8284-1b4c0cfb1007")
 	)
 	(label "+3V3"
 		(at 78.74 166.37 0)
@@ -7795,7 +7755,7 @@
 		(uuid "fa4a4efd-d4ce-4767-854d-8e334459edac")
 	)
 	(label "GND"
-		(at 262.89 132.08 180)
+		(at 265.43 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8730,7 +8690,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 262.89 130.81 0)
+		(at 265.43 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8740,7 +8700,7 @@
 		(dnp no)
 		(uuid "2f40d2bf-1cde-4301-9d08-266605536937")
 		(property "Reference" "TP3"
-			(at 262.89 125.222 0)
+			(at 265.43 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8751,7 +8711,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 265.43 128.7779 0)
+			(at 267.97 133.8579 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8763,7 +8723,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 267.97 130.81 0)
+			(at 270.51 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +8734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 130.81 0)
+			(at 270.51 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +8745,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 262.89 130.81 0)
+			(at 265.43 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,85 +11893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 274.32 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "9bf1b1b9-5036-43cf-8217-c79f4168ebcc")
-		(property "Reference" "TP7"
-			(at 274.32 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 276.86 135.1279 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 279.4 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 274.32 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75921583-9e99-4fc0-b5cb-57cf7a0608b2")
-		)
-		(instances
-			(project "ESP32S3_RF_DevBoard"
-				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 86.36 171.45 90)
 		(unit 1)
@@ -13585,85 +13466,6 @@
 			(project "ESP32S3_RF_DevBoard"
 				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "f2ef7baa-0cd5-4be5-b910-bf5b24b6d746")
-		(property "Reference" "TP6"
-			(at 262.89 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 265.43 140.2079 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 267.97 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 262.89 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75921583-9e99-4fc0-b5cb-57cf7a0608b4")
-		)
-		(instances
-			(project "ESP32S3_RF_DevBoard"
-				(path "/784333dd-3fa1-4922-bbbf-658c1720cebd"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
