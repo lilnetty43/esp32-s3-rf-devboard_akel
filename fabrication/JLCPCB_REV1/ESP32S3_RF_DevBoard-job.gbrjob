@@ -1,0 +1,197 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.4"
+    },
+    "CreationDate": "2026-09-03T17:10:01-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "ESP32S3_RF_DevBoard",
+      "GUID": "45535033-3253-4335-9f52-465f44657642",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 25.45,
+      "Y": 60.05
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.5742,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "ESP32S3_RF_DevBoard-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-In1_Cu.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-In2_Cu.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.218,
+      "Material": "7628 RC49%",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "F.Cu/In1.Cu (1/2)",
+      "Notes": "Type: dielectric layer 1 - 1/2 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0764,
+      "Material": "1080 RC67%",
+      "DielectricConstant": "3.91",
+      "LossTangent": "0.02",
+      "Name": "F.Cu/In1.Cu (2/2)",
+      "Notes": "Type: dielectric layer 1 - 2/2 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.865,
+      "Material": "FR4",
+      "DielectricConstant": "4.43",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0764,
+      "Material": "1080 RC67%",
+      "DielectricConstant": "3.91",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/B.Cu (1/2)",
+      "Notes": "Type: dielectric layer 3 - 1/2 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.218,
+      "Material": "7628 RC49%",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/B.Cu (2/2)",
+      "Notes": "Type: dielectric layer 3 - 2/2 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
