@@ -84,23 +84,31 @@
       "drc_exclusions": [
         [
           "courtyards_overlap|143135000|87712086|9e45b968-a425-41a1-9c5e-b2456ab496ce|c092d600-d2c4-422c-9438-a9636a483321",
-          "intentional courtyard overlap; bodies verified in 3D and i see no mechanical collision."
+          "checked 3D model, no overlap"
         ],
         [
           "courtyards_overlap|162465000|69155000|4e980cb0-2d4f-467a-8fcc-0286277a32b5|9e45b968-a425-41a1-9c5e-b2456ab496ce",
-          "intentional courtyard overlap; bodies verified in 3D and i see no mechanical collision."
+          "checked 3D model, no overlap"
         ],
         [
           "lib_footprint_mismatch|141370000|97600000|c092d600-d2c4-422c-9438-a9636a483321|00000000-0000-0000-0000-000000000000",
-          "footprint was edited for board F.Silkscreen locally."
+          "i edited the footprint for the F.Silkscreen DRC warning "
         ],
         [
           "lib_footprint_mismatch|152800000|67200000|9e45b968-a425-41a1-9c5e-b2456ab496ce|00000000-0000-0000-0000-000000000000",
-          "footprint was edited for board F.Silkscreen locally."
+          "i edited the footprint for the F.Silkscreen DRC warning "
+        ],
+        [
+          "lib_footprint_mismatch|157522524|113992500|e90926a9-356e-4922-9736-b37a22f21438|00000000-0000-0000-0000-000000000000",
+          "i edited the footprint for the F.Silkscreen DRC warning "
+        ],
+        [
+          "lib_footprint_mismatch|158187500|111000000|1ed7b1ab-1de4-4083-b395-e65cc7bccbc3|00000000-0000-0000-0000-000000000000",
+          "i edited the footprint for the F.Silkscreen DRC warning "
         ],
         [
           "lib_footprint_mismatch|164230000|97600000|4e980cb0-2d4f-467a-8fcc-0286277a32b5|00000000-0000-0000-0000-000000000000",
-          "footprint was edited for board F.Silkscreen locally."
+          "i edited the footprint for the F.Silkscreen DRC warning "
         ]
       ],
       "meta": {
