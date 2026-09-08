@@ -20,15 +20,15 @@ A 4-layer PCB stackup was used to provide dedicated ground and power planes whil
 
 ## Details
 
-- **MCU:** ESP32-S3 module with integrated PCB antenna
+- **MCU:** ESP32-S3 [LINK]
 - **PCB:** 4-layer, 1.6 mm
 - **USB:** USB-C with native ESP32-S3 USB programming
-- **USB Routing:** 90 Ω differential impedance target for D+ / D−
-- **Power Input:** 5 V USB
-- **Regulation:** 5 V to 3.3 V using LD1117S33
-- **GPIO:** Dual breakout headers
-- **Controls:** BOOT and RESET pushbuttons
-- **Protection:** USB ESD protection
+- **USB Routing:** 90 Ω differential impedance target for D+/D−
+- **Power Input:** 5V USB
+- **Regulation:** 5V to 3.3V using LD1117S33 [LINK]
+- **GPIO:** Dual breakout headers [LINK]
+- **Controls:** BOOT and RESET pushbuttons [LINK]
+- **Protection:** USB ESD protection [LINK]
 - **Status:** Programmable RGB LED
 - **Debugging:** Dedicated test points for important power and signal nets for debugging/checking
 
@@ -37,16 +37,16 @@ A 4-layer PCB stackup was used to provide dedicated ground and power planes whil
 ## PCB Stackup
 
 The board uses a 4-layer stackup:
-- **L1 / F.Cu:** Components and signals
-- **L2 / In1.Cu:** Solid GND
-- **L3 / In2.Cu:** 3.3 V power 
-- **L4 / B.Cu:** Secondary signal routing
+- **L1/F.Cu:** Components and signals
+- **L2/In1.Cu:** Solid GND
+- **L3/In2.Cu:** 3.3 V power 
+- **L4/B.Cu:** Secondary signal routing
 
 The stackup was configured around the intended JLCPCB manufacturing process rather than using KiCad's default layer construction.
 
 ---
 
-## PCB Design Highlights
+## PCB Design Highlights [FIX!!!]
 
 
 ![PCB Routing](docs/images/pcb_routing/PCB_Routing.png)
