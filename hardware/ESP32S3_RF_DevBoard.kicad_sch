@@ -5,6 +5,7 @@
 	(uuid "784333dd-3fa1-4922-bbbf-658c1720cebd")
 	(paper "A4")
 	(title_block
+		(title "ESP32 S3 RF Dev Board - Antoinette K.")
 		(date "2026-08-20")
 		(rev "v1")
 	)

@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.4"
     },
-    "CreationDate": "2026-09-03T17:10:01-04:00"
+    "CreationDate": "2026-09-08T14:40:06-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,9 +18,8 @@
       "Y": 60.05
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.5742,
-    "Finish": "None",
-    "ImpedanceControlled": true
+    "BoardThickness": 1.6062,
+    "Finish": "None"
   },
   "DesignRules": [
     {
@@ -120,22 +119,10 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.218,
+      "Thickness": 0.2104,
       "Material": "7628 RC49%",
-      "DielectricConstant": "4.4",
-      "LossTangent": "0.02",
-      "Name": "F.Cu/In1.Cu (1/2)",
-      "Notes": "Type: dielectric layer 1 - 1/2 (from F.Cu to In1.Cu)"
-    },
-    {
-      "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.0764,
-      "Material": "1080 RC67%",
-      "DielectricConstant": "3.91",
-      "LossTangent": "0.02",
-      "Name": "F.Cu/In1.Cu (2/2)",
-      "Notes": "Type: dielectric layer 1 - 2/2 (from F.Cu to In1.Cu)"
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
@@ -144,10 +131,8 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.865,
+      "Thickness": 1.065,
       "Material": "FR4",
-      "DielectricConstant": "4.43",
-      "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
@@ -158,22 +143,10 @@
     },
     {
       "Type": "Dielectric",
-      "Color": "R109G116B75",
-      "Thickness": 0.0764,
-      "Material": "1080 RC67%",
-      "DielectricConstant": "3.91",
-      "LossTangent": "0.02",
-      "Name": "In2.Cu/B.Cu (1/2)",
-      "Notes": "Type: dielectric layer 3 - 1/2 (from In2.Cu to B.Cu)"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.218,
+      "Thickness": 0.2104,
       "Material": "7628 RC49%",
-      "DielectricConstant": "4.4",
-      "LossTangent": "0.02",
-      "Name": "In2.Cu/B.Cu (2/2)",
-      "Notes": "Type: dielectric layer 3 - 2/2 (from In2.Cu to B.Cu)"
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
