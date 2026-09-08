@@ -111,8 +111,8 @@ esp32-s3-rf-devboard/
 ├── README.md
 ├── docs/
 │   └── images/
-│       ├── 3d-renders/
-│       ├── pcb-routing/
+│       ├── 3d_renders/
+│       ├── pcb_routing/
 │       └── schematic/
 ├── fabrication/
 │   └── JLCPCB_REV1/
