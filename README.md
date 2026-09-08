@@ -22,14 +22,14 @@ A 4-layer PCB stackup was used to provide dedicated ground and power planes whil
 
 - **MCU:** ESP32-S3 [LINK]
 - **PCB:** 4-layer, 1.6 mm
-- **USB:** USB-C with native ESP32-S3 USB programming
+- **USB:** USB-C with native ESP32-S3 USB programming[LINK]
 - **USB Routing:** 90 Ω differential impedance target for D+/D−
 - **Power Input:** 5V USB
 - **Regulation:** 5V to 3.3V using LD1117S33 [LINK]
-- **GPIO:** Dual breakout headers [LINK]
-- **Controls:** BOOT and RESET pushbuttons [LINK]
+- **GPIO:** Dual breakout headers
+- **Controls:** BOOT/RESET pushbuttons [LINK]
 - **Protection:** USB ESD protection [LINK]
-- **Status:** Programmable RGB LED
+- **Status:** Programmable RGB LED [LINK]
 - **Debugging:** Dedicated test points for important power and signal nets for debugging/checking
 
 ---
