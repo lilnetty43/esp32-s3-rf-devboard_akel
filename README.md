@@ -4,7 +4,7 @@ This project is a custom 4-layer development board built around the ESP32-S3. I 
 
 My board include native USB-C programming and power, 5 V-to-3.3 V regulation, GPIO breakout headers, BOOT and RESET controls, protection circuitry, test points, and a programmable RGB status LED.
 
-![3D Top View](docs/images/3d-renders/3D 1.png)
+![3D Top View](docs/images/3d-renders/3D_TOP.png)
 
 *KiCad-generated 3D render of the ESP32-S3 development board.*
 
@@ -49,7 +49,7 @@ The stackup was configured around the intended JLCPCB manufacturing process rath
 ## PCB Design Highlights
 
 
-![PCB Routing](docs/images/pcb-routing/PCB_ROUTING.png)
+![PCB Routing](docs/images/pcb-routing/PCB_Routing.png)
 
 *Top PCB layout showing component placement and routed signals.*
 
@@ -70,7 +70,7 @@ The D+ and D− pair was routed using dimensions calculated for the selected 4-l
 
 I utilized the JLCPCB resources and calculator to help determine this targeted impedance.
 
-![USB Differential Pair](docs/images/pcb-routing/USB_DIFF_PAIR_ROUTING.png)
+![USB Differential Pair](docs/images/pcb-routing/USB_DIFF_PAIR_Routing.png)
 
 *USB D+ and D− differential-pair routing between the USB-C interface and ESP32-S3.*
 
