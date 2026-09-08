@@ -49,7 +49,7 @@ The stackup was configured around the intended JLCPCB manufacturing process rath
 ## PCB Design Highlights
 
 
-![PCB Routing](docs/images/pcb-routing/PCB_Routing.png)
+![PCB Routing](docs/images/pcb_routing/PCB_Routing.png)
 
 *Top PCB layout showing component placement and routed signals.*
 
@@ -70,7 +70,7 @@ The D+ and D− pair was routed using dimensions calculated for the selected 4-l
 
 I utilized the JLCPCB resources and calculator to help determine this targeted impedance.
 
-![USB Differential Pair](docs/images/pcb-routing/USB_DIFF_PAIR_Routing.png)
+![USB Differential Pair](docs/images/pcb_routing/USB_DIFF_PAIR_Routing.png)
 
 *USB D+ and D− differential-pair routing between the USB-C interface and ESP32-S3.*
 
