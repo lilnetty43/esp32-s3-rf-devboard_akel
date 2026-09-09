@@ -1,1 +1,21 @@
-Reference,Component,Manufacturer,Manufacturer Part Number,LCSC Part Number,Quantity,Unit Price (USD),Description,Notes
+Reference,Component,Manufacturer,Manufacturer Part Number,LCSC Part Number,Quantity,Unit Price (USD),Description,Notes,Link"C1, C5, C7, C8",0.1uF,,,,4,,0603 ceramic capacitor,Decoupling capacitor
+C2,4.7uF,,,,1,,0805 capacitor,
+C3,10uF,,,,1,,EIA 3528-21 capacitor,Bulk capacitance
+C4,10uF,,,,1,,0603 ceramic capacitor,Bulk/decoupling capacitance
+C6,1uF,,,,1,,0805 ceramic capacitor,
+"R1, R2, R3",5.1k,,,,3,,0603 resistor,
+"R5, R9, R10",10k,,,,3,,0603 resistor,
+"R6, R7",22R,,,,2,,0603 resistor,USB D+/D- series resistors
+R4,0R,,,,1,,0603 resistor,0-ohm resistor
+R8,33R,,,,1,,0603 resistor,
+D1,LESD5D5.0CT1G,,,,1,,TVS protection diode,
+D2,RED,,,,1,,0603 red LED,Status LED
+U1,ESD122DMYR,,,,1,,USB ESD protection device,USB D+/D- protection
+U2,LD1117DT33CTR,,,,1,,3.3 V linear regulator,5 V to 3.3 V regulation
+U3,ESP32-S3-WROOM-1-N8,,,,1,,ESP32-S3 Wi-Fi/Bluetooth module,Main MCU and RF module
+U4,SN74AHCT1G125DBVR,,,,1,,Single buffer/level interface,
+SW1,BOOT,,,,1,,Momentary pushbutton,BOOT control
+SW2,RESET,,,,1,,Momentary pushbutton,RESET control
+LED1,XL-2121RGBC-WS2812B,,,,1,,Addressable RGB LED,Programmable status LED
+"J2, J3",Conn_01x22,,,,2,,1x22 2.54 mm vertical headers,GPIO breakout headers
+J1,USB4105-GF-A,,,,1,,USB Type-C receptacle,USB power and native USB interface
