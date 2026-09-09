@@ -1,5 +1,5 @@
 Reference,Component,Manufacturer,Manufacturer Part Number,LCSC Part Number,Quantity,Unit Price (USD),Description,Notes,Link"C1, C5, C7, C8",0.1uF,,,,4,,0603 ceramic capacitor,Decoupling capacitor
-C2,4.7uF,,,,1,,0805 capacitor,
+"C2,4.7uF,,,,1,,0805 capacitor,
 C3,10uF,,,,1,,EIA 3528-21 capacitor,Bulk capacitance
 C4,10uF,,,,1,,0603 ceramic capacitor,Bulk/decoupling capacitance
 C6,1uF,,,,1,,0805 ceramic capacitor,
