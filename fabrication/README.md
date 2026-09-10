@@ -1,1 +1,1 @@
-This directory contains Drill and Gerber source files.
+This directory contains Drill and Gerber source files for the project.
