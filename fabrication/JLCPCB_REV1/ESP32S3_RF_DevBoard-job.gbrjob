@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.4"
     },
-    "CreationDate": "2026-09-08T14:40:06-04:00"
+    "CreationDate": "2026-09-10T16:24:45-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -60,6 +60,16 @@
     {
       "Path": "ESP32S3_RF_DevBoard-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-F_Adhesive.gta",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ESP32S3_RF_DevBoard-B_Adhesive.gba",
+      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
