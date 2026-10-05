@@ -120,4 +120,5 @@ esp32-s3-rf-devboard/
 │   ├── ESP32S3_RF_DevBoard.kicad_pro
 │   ├── ESP32S3_RF_DevBoard.kicad_sch
 │   └── ESP32S3_RF_DevBoard.kicad_pcb
-└── manufacturing/
+└── manufacturing (PENDING)/
+
